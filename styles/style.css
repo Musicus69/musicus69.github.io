@@ -1,0 +1,37 @@
+html {
+    font-size: 10px; /* px means "pixels": the base font size is now 10 pixels high  */
+    font-family: 'Cinzel', serif;/* this should be the rest of the output you got from Google fonts */
+    background-color: #7F3FBF;
+  }
+
+body {
+    width: 600px;
+    padding: 0 20px 20px 20px;
+    border: 5px solid black;
+    margin: 0 auto;
+    background-color: #FF9500;
+}
+
+a:hover {
+    color: blue;
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+    padding: 20px 0;
+    margin: 0;
+    color: #7F3FBF;
+    text-shadow: 3px 3px 2px black;
+}
+
+p, li {
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: 1px;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+}
